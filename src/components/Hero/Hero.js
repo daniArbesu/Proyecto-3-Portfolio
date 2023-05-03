@@ -2,7 +2,7 @@ import './Hero.css';
 
 const template = `
 <section class="hero">
-    <h1>Hi, I'm Daniel Arbesú <span class="wave">👋</span></h1>
+    <h1><span class="wave">👋</span> I'm Daniel Arbesú</h1>
     <h2 class="highlighted-text">Full-Stack Developer<span class="text-blinking">_</span></h2>
     <div class="location-wrapper">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
