@@ -2,19 +2,20 @@
   /* COLOR PALETTE */
   --da-color-primary-light: #ffffff;
   --da-color-primary-dark: #6a6a6a;
-  --da-color-secondary-light: #a0a0a0;
+  --da-color-secondary-light: #51d1f6;
+  --da-color-secondary-dark: #51d1f6;
   --da-color-navbar-border: #f0f0f0;
   --da-color-background-light: #f9f9f9;
 
   /* FONT SIZE */
-  --da-typography-h1: 1.7rem;
-  --da-typography-h2: 1.625rem;
+  --da-typography-h1: 2.25rem;
+  --da-typography-h2: 1.5rem;
   --da-typography-h3: 1.625rem;
   --da-typography-p: 0.8125rem;
   --da-typography-typeface: Poppins, sans-serif;
 
   /* LEADING */
-  --da-typography-h1-leading: 1;
+  --da-typography-h1-leading: 2rem;
   --da-typography-h2-leading: 1.26;
   --da-typography-p-leading: 1.5;
 
@@ -70,6 +71,17 @@ body {
 }
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  font-size: var(--da-typography-h1);
+  font-weight: 600;
+  line-height: var(--da-typography-h1-leading);
+}
+
+h2 {
+  font-size: var(--da-typography-h2);
+  line-height: var(--da-typography-h2-leading);
+  font-weight: 800;
+}
+
+.highlighted-text {
+  color: var(--da-color-secondary-light);
 }
