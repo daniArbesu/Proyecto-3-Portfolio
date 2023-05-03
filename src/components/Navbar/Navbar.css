@@ -1,0 +1,7 @@
+::root {
+  --da-navbar-backdrop-blur: blur(8px);
+}
+
+.navbar {
+  backdrop-filter: var(--da-navbar-backdrop-blur);
+}

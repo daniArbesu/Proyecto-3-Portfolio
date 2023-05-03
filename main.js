@@ -1,7 +1,11 @@
+import printFooter from './src/components/Footer/Footer';
+import printNavbar from './src/components/Navbar/Navbar';
 import './style.css';
 
-document.querySelector('#app').innerHTML = `
-  <div>
-   <h1>Rock{theCode} JavaScript Template</h1>
-  </div>
-`;
+const init = () => {
+  printNavbar();
+  // initMain();
+  printFooter();
+};
+
+init();
