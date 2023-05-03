@@ -1,8 +1,8 @@
 :root {
   /* COLOR PALETTE */
   --da-color-primary-light: #ffffff;
-  --da-color-primary-dark: #213547;
-  --da-color-secondary: #a0a0a0;
+  --da-color-primary-dark: #6a6a6a;
+  --da-color-secondary-light: #a0a0a0;
   --da-color-navbar-border: #f0f0f0;
   --da-color-background-light: #f9f9f9;
 
@@ -34,8 +34,8 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: var(--da-color-primary-light);
+  color: var(--da-color-primary-dark);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -45,7 +45,6 @@
 }
 
 * {
-  font-family: var(--da-typography-typeface);
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -67,6 +66,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  padding: 0 1.5rem;
 }
 
 h1 {

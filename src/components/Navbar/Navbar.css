@@ -3,5 +3,36 @@
 }
 
 .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   backdrop-filter: var(--da-navbar-backdrop-blur);
+  padding-top: 1rem;
+  z-index: 40;
+  width: 100%;
+}
+
+.mobile-menu {
+  width: 24px;
+  height: 24px;
+  fill: none;
+  stroke: #6a6a6a;
+  stroke-width: 2px;
+}
+
+.dark-light-button {
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 100%;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-appearance: button;
+  appearance: button;
+}
+
+.dark-light-button__logo {
+  width: 20px;
+  height: 20px;
 }
