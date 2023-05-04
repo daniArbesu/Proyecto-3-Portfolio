@@ -55,24 +55,37 @@
   }
 }
 
-.hero-numbers-wrapper {
+.cta-wrapper {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
+  gap: 2rem;
 }
 
 .cta-button {
   display: inline-block;
-  padding: 1rem 1.5rem 0.8rem;
-  border-radius: 2rem;
+  padding: 1rem 1.75rem;
+  border-radius: 1rem;
   font-size: 0.875rem;
   font-weight: 700;
   gap: 10px;
   letter-spacing: 0.1rem;
   text-align: center;
-  text-transform: uppercase;
 
   border: 3px solid transparent;
   background-color: var(--da-color-secondary-light);
-  color: var(--da-color-primary-light);
+  color: var(--da-color-primary-dark);
+}
+
+.button-social {
+  background-color: var(--da-color-primary-dark);
+  padding: 0.7rem 0.7rem;
+  border-radius: 1rem;
+  display: flex;
+}
+
+.social-links__logo {
+  width: 24px;
+  height: 24px;
+  stroke: white;
 }
