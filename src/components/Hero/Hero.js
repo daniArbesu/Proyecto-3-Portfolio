@@ -18,17 +18,17 @@ const template = `
         <div class="cta-wrapper">
         <a href=${resumeLink} target="_blank" aria-label="Resume" rel="noopener nofollow" class="cta-button">See Resume</a>
             <div class="social-links-wrapper">
-            ${ctaButtons
-              .map(
-                ({ name, link, iconPath }) => `
-                <a href=${link} target="_blank" aria-label=${name} rel="noopener nofollow" class="button-social">
-                    <svg class="social-links__logo" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d=${iconPath}/> 
-                    </svg>
-                </a>
-            `
-              )
-              .join('')}
+                ${ctaButtons
+                  .map(
+                    ({ name, link, iconPath }) => `
+                    <a href=${link} target="_blank" aria-label=${name} rel="noopener nofollow" class="button-social">
+                        <svg class="social-links__logo" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d=${iconPath}/> 
+                        </svg>
+                    </a>
+                `
+                  )
+                  .join('')}
             </div>
         </div>
     </div>
