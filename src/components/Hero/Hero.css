@@ -7,6 +7,12 @@
   gap: 1.5rem;
 }
 
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
 .wave {
   animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
   animation-duration: 2.5s; /* Change to speed up or slow down */
