@@ -22,6 +22,10 @@
   /* MARGIN */
   --da-typography-margin-heading: 2rem;
 
+  /* PADDING */
+  --da-button-padding-top: 0.7rem;
+  --da-button-padding-left: 1rem;
+
   /* GAP */
   --da-gap-header: 1rem;
 
