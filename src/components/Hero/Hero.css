@@ -3,7 +3,7 @@
 }
 
 .hero {
-  height: 92vh;
+  height: 92svh;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
