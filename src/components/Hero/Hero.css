@@ -4,6 +4,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 1.5rem;
 }
 
 .wave {
@@ -58,7 +59,7 @@
 .cta-wrapper {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   gap: 2rem;
 }
 
@@ -82,6 +83,11 @@
   padding: 0.7rem 0.7rem;
   border-radius: 1rem;
   display: flex;
+}
+
+.social-links-wrapper {
+  display: flex;
+  gap: 1rem;
 }
 
 .social-links__logo {
