@@ -25,6 +25,9 @@
   /* GAP */
   --da-gap-header: 1rem;
 
+  /* SIZE */
+  --da-navbar-height: 1rem;
+
   /* BORDER RADIUS */
   --da-radius-button: 0.5rem;
   --da-radius-card: 0.5rem;
