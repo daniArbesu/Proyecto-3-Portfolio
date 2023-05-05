@@ -1,3 +1,5 @@
+import icons from './icons';
+
 export const ctaButtons = [
   {
     name: 'LinkedIN',
@@ -23,3 +25,21 @@ export const projectLinks = [
 
 export const resumeLink =
   'https://drive.google.com/file/d/1P2q3GneVdGBKBs-7JXJj9D89DLt9xK-4/view?usp=sharing';
+
+export const navbarMenu = [
+  {
+    name: 'Home',
+    id: 'homelink',
+    icon: icons.home
+  },
+  {
+    name: 'Projects',
+    id: 'projectslink',
+    icon: icons.projects
+  },
+  {
+    name: 'Experience',
+    id: 'experiencelink',
+    icon: icons.experience
+  }
+];
