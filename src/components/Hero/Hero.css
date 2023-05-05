@@ -101,12 +101,13 @@
   text-align: center;
 
   border: 3px solid transparent;
-  background-color: var(--da-color-secondary-light);
-  color: var(--da-color-primary-dark);
+  background-color: var(--da-color-secondary);
+  color: var(--da-color-background);
 }
 
 .button-social {
-  background-color: var(--da-color-primary-dark);
+  background-color: var(--da-color-primary);
+  color: var(--da-color-background);
   padding: var(--da-button-padding-top) var(--da-button-padding-left);
   border-radius: 1rem;
   display: flex;
