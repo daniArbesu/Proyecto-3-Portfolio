@@ -2,6 +2,7 @@
   /* COLOR PALETTE */
   --da-color-primary: #111111;
   --da-color-secondary: #51d1f6;
+  --da-color-highlight: #51d1f6;
   --da-color-background: #ffffff;
 
   /* FONT SIZE */
@@ -87,11 +88,11 @@ h2 {
 }
 
 .highlighted-text {
-  color: var(--da-color-secondary);
+  color: var(--da-color-highlight);
 }
 
 .darkmode {
   --da-color-background: #0a0a0a;
   --da-color-primary: #f3f3f3;
-  --da-color-secondary: #ffb200;
+  --da-color-highlight: #ffb200;
 }

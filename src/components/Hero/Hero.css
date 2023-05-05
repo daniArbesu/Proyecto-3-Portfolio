@@ -101,7 +101,7 @@
   text-align: center;
 
   border: 3px solid transparent;
-  background-color: var(--da-color-secondary);
+  background-color: var(--da-color-highlight);
   color: var(--da-color-background);
 }
 

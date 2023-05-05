@@ -34,7 +34,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: var(--da-color-background-light);
+  background-color: var(--da-color-background);
   height: 93svh;
   text-align: center;
   justify-content: center;
