@@ -1,4 +1,4 @@
-::root {
+:root {
   --da-navbar-backdrop-blur: blur(8px);
 }
 
@@ -13,12 +13,48 @@
   width: 100%;
 }
 
-.mobile-menu {
+.mobile-menu__icon {
   width: 24px;
   height: 24px;
   fill: none;
   stroke: #6a6a6a;
   stroke-width: 2px;
+  cursor: pointer;
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+}
+
+.mobile-menu__nav {
+  display: none;
+}
+
+.showmobile-menu__nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--da-color-background-light);
+  height: 93svh;
+  text-align: center;
+  justify-content: center;
+  position: fixed;
+  top: 5vh;
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+  z-index: 1;
+}
+
+.mobile-menu__links {
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  gap: 2rem;
+}
+
+.mobile-menu__item {
+  display: flex;
+  gap: 1rem;
 }
 
 .dark-light-button {

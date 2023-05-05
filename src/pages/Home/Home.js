@@ -1,7 +1,7 @@
-import { Hero } from '../../components/Hero/Hero';
+import printHero from '../../components/Hero/Hero';
 
 const Home = () => `
-  ${Hero()}
+  ${printHero()}
 `;
 
 export default Home;

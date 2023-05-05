@@ -5,7 +5,7 @@
   --da-color-secondary-light: #51d1f6;
   --da-color-secondary-dark: #51d1f6;
   --da-color-navbar-border: #f0f0f0;
-  --da-color-background-light: #f9f9f9;
+  --da-color-background-light: #ffffff;
 
   /* FONT SIZE */
   --da-typography-h1: 2.25rem;
@@ -58,9 +58,13 @@
   padding: 0;
 }
 
+ol,
+ul {
+  list-style: none;
+}
+
 a {
-  font-weight: 500;
-  color: #646cff;
+  color: inherit;
   text-decoration: inherit;
 }
 
