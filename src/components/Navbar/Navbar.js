@@ -26,8 +26,8 @@ const template = `
         Home
       </a>
     </li>
-    <li><a href="#" target="_blank" aria-label="Home Link" rel="noopener nofollow">Projects</a></li>
-    <li><a href="#" target="_blank" aria-label="Home Link" rel="noopener nofollow">Experience</a></li>
+    <li><a href="#" class="mobile-menu__item" id="projectslink" aria-label="Home Link" rel="noopener nofollow">Projects</a></li>
+    <li><a href="#" class="mobile-menu__item" id="experiencelink" aria-label="Home Link" rel="noopener nofollow">Experience</a></li>
   </ul>
 </nav>
     `;
