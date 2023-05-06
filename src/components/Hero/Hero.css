@@ -92,7 +92,7 @@
 .cta-button {
   display: inline-block;
   padding: var(--da-button-padding-top) var(--da-button-padding-left);
-
+  cursor: pointer;
   border-radius: 1rem;
   font-size: 0.875rem;
   font-weight: 700;
@@ -112,6 +112,7 @@
   border-radius: 1rem;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .social-links-wrapper {
