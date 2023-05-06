@@ -111,6 +111,7 @@
   padding: var(--da-button-padding-top) var(--da-button-padding-left);
   border-radius: 1rem;
   display: flex;
+  align-items: center;
 }
 
 .social-links-wrapper {

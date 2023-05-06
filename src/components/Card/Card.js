@@ -15,9 +15,9 @@ ${projectLinks
                   .map((technology) => `<li class="card__tag">${technology}</li>`)
                   .join('')}
             </ul>
-            <div>
-                <a href=${liveWeb}>Website</a>
-                <a href=${github}>Github</a>
+            <div class="card__links">
+                <a href=${liveWeb} target="_blank" aria-label="Website Link" rel="noopener nofollow" class="cta-button">Website</a>
+                <a href=${github} target="_blank" aria-label="Github Link" rel="noopener nofollow" class="button-social">Source</a>
             </div>
         </section>
     </article>`
