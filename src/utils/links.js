@@ -17,12 +17,13 @@ export const ctaButtons = [
 
 export const projectLinks = [
   {
-    name: '',
-    image: '',
-    description: '',
-    technologies: [],
-    github: '',
-    liveWeb: ''
+    name: 'GroveMade Shop',
+    image:
+      'https://res.cloudinary.com/dm1ciqr4c/image/upload/v1683369944/Project_2_Website_Shop_peq0or.png',
+    description: 'E-Commerce platform using semantic html and Clean code',
+    technologies: ['Javascript', 'CSS'],
+    github: 'https://github.com/daniArbesu/Proyecto-2-GroveMadeStore',
+    liveWeb: 'https://dani-arbesu-shop.netlify.app/'
   }
 ];
 

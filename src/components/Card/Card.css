@@ -1,0 +1,43 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 1rem 2.25rem;
+}
+
+.card__cover {
+  width: 100%;
+  border-radius: 0.4rem;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+
+.card__info {
+  width: 100%;
+  max-width: 42ch;
+  align-self: center;
+}
+
+.card__title {
+  font-size: 1.8rem;
+}
+
+.card__description {
+  padding: 1rem 0;
+}
+
+.card__tags-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  gap: 0.5rem;
+  text-align: left;
+}
+
+.card__tag {
+  background-color: rgb(226, 232, 240);
+  color: black;
+  border-radius: 0.4rem;
+  font-size: 1rem;
+  padding: 0.25rem 0.25rem;
+}

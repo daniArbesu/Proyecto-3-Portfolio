@@ -17,7 +17,7 @@
   width: 24px;
   height: 24px;
   fill: none;
-  stroke: #6a6a6a;
+  stroke: var(--da-color-primary);
   stroke-width: 2px;
   cursor: pointer;
   position: relative;

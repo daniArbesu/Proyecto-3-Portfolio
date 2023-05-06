@@ -1,6 +1,6 @@
 :root {
   /* COLOR PALETTE */
-  --da-color-primary: #111111;
+  --da-color-primary: #333333;
   --da-color-secondary: #51d1f6;
   --da-color-highlight: #51d1f6;
   --da-color-background: #ffffff;
@@ -92,7 +92,12 @@ h2 {
 }
 
 .darkmode {
-  --da-color-background: #0a0a0a;
-  --da-color-primary: #f3f3f3;
+  --da-color-background: #141414;
+  --da-color-primary: #f0efef;
   --da-color-highlight: #ffb200;
+}
+
+.page__title {
+  font-size: 2.25rem;
+  padding: 2rem 0;
 }
