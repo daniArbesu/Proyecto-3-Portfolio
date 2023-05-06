@@ -13,17 +13,13 @@ const template = `
   </svg>
 </button>
 <nav class="mobile-menu__nav showmobilelinks" id="mobile-menu__nav">
-  <svg xmlns="http://www.w3.org/2000/svg" class="mobile-menu__icon" fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <line x1="18" y1="6" x2="6" y2="18"></line>
-    <line x1="6" y1="6" x2="18" y2="18"></line>
-  </svg>
   <ul class="mobile-menu__links">
     ${navbarMenu
       .map(
         ({ name, id, icon }) => `
         <li>
           <a href="#" class="mobile-menu__item" id=${id} aria-label=${name} rel="noopener nofollow">
-            <svg class="mobile-menu__item-icon" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class="mobile-menu__item-icon" xmlns="http://www.w3.org/2000/svg">
               <path d='${icon}' stroke-linecap="round" stroke-linejoin="round"></path>
             </svg>
             ${name}
