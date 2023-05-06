@@ -23,8 +23,8 @@ const template = `
         ({ name, id, icon }) => `
         <li>
           <a href="#" class="mobile-menu__item" id=${id} aria-label=${name} rel="noopener nofollow">
-            <svg width="24px" height="24px" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d=${icon} stroke-linecap="round" stroke-linejoin="round"></path>
+            <svg class="mobile-menu__item-icon" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d='${icon}' stroke-linecap="round" stroke-linejoin="round"></path>
             </svg>
             ${name}
           </a>

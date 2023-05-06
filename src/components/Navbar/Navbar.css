@@ -35,6 +35,7 @@
   flex-direction: column;
   align-items: center;
   background-color: var(--da-color-background);
+  color: var(--da-color-primary);
   height: 93svh;
   text-align: center;
   justify-content: center;
@@ -55,6 +56,12 @@
 .mobile-menu__item {
   display: flex;
   gap: 1rem;
+}
+
+.mobile-menu__item-icon {
+  stroke: var(--da-color-primary);
+  width: 24px;
+  height: 24px;
 }
 
 .dark-light-button {

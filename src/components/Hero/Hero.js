@@ -23,7 +23,7 @@ const template = `
                     ({ name, link, iconPath }) => `
                     <a href=${link} target="_blank" aria-label=${name} rel="noopener nofollow" class="button-social">
                         <svg class="social-links__logo" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d=${iconPath}/> 
+                            <path fill-rule="evenodd" clip-rule="evenodd" d='${iconPath}'/> 
                         </svg>
                     </a>
                 `
