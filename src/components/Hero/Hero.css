@@ -102,7 +102,7 @@
 
   border: 3px solid transparent;
   background-color: var(--da-color-highlight);
-  color: var(--da-color-background);
+  color: #333333;
 }
 
 .button-social {
