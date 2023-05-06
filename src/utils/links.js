@@ -19,7 +19,10 @@ export const projectLinks = [
   {
     name: '',
     image: '',
-    link: ''
+    description: '',
+    technologies: [],
+    github: '',
+    liveWeb: ''
   }
 ];
 

@@ -1,5 +1,8 @@
+import Card from '../../components/Card/Card';
+
 const template = () => `
-  <h2>Projects Page</h2>
+  <h2>Highlighted Projects</h2>
+  ${Card()}
 `;
 
 const Projects = () => {
