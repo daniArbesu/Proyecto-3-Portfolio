@@ -119,7 +119,9 @@
 }
 
 .social-links__logo {
-  width: 24px;
-  height: 24px;
-  stroke: white;
+  width: 1.5rem;
+  height: 1.5rem;
+  stroke: none;
+  fill: var(--da-color-background);
+  stroke-width: 1px;
 }
