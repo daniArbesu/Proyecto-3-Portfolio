@@ -25,13 +25,12 @@ export const projectLinks = [
   },
   {
     name: 'NASA Picture of the day',
-    image:
-      'https://res.cloudinary.com/dm1ciqr4c/image/upload/v1683393254/Project_4_NASA_picture_of_the_day_y7sadm.png',
+    image: 'https://res.cloudinary.com/dm1ciqr4c/image/upload/v1683491860/NASA-App-2_bn6s2f.jpg',
     description:
       "Webapp that allows to look at the NASA's Picture of the day API in an Instagram style",
     technologies: ['React', 'CSS'],
-    github: 'https://github.com/daniArbesu/Proyecto-2-GroveMadeStore',
-    liveWeb: 'https://dani-arbesu-shop.netlify.app/'
+    github: 'https://github.com/daniArbesu/Proyecto-4-App-NASA',
+    liveWeb: 'https://dani-arbesu-nasa.netlify.app/'
   }
 ];
 
