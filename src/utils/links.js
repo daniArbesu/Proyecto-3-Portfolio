@@ -78,5 +78,15 @@ export const experience = [
       'Optimization ofproduction processes'
     ],
     website: 'https://www.nucan.com/en/'
+  },
+  {
+    role: 'Software Engineer',
+    company: 'Veronica Durán architecture studio',
+    logo: 'https://res.cloudinary.com/dm1ciqr4c/image/upload/v1683480361/Veronica-Duran-Logo-240x34-V2_lm0gc0.png',
+    time: 'Dec. 2011 - Feb. 2012',
+    description:
+      'Development of a computer program to manage the equipment and places of the new hospital "Vital Álvarez Buylla" in Mieres, Asturias (HVAB).',
+    responsibilities: ['Software Development', 'Technical Support'],
+    website: 'https://estudioveronicaduran.com/'
   }
 ];
