@@ -55,3 +55,15 @@ export const navbarMenu = [
     icon: icons.experience
   }
 ];
+
+export const experience = [
+  {
+    role: 'Mechanical Engineer',
+    company: 'Schwihag AG (Switzerland)',
+    logo: 'https://res.cloudinary.com/dm1ciqr4c/image/upload/v1683473975/logo-schwihag-fahrbahntechnik-track-switch-technology-eisenbahn-railway-blau_yhfxy3.png',
+    time: 'Oct. 2015 - Today',
+    description: 'Design and development of railway rail fastening systems, analysis with FEM.',
+    responsibilities: ['Design of new products', 'FEM analysis'],
+    website: 'https://schwihag.com/en/'
+  }
+];

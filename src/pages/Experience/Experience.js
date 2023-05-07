@@ -1,5 +1,11 @@
+import Timeline from '../../components/Timeline/Timeline';
+import './Experience.css';
+
 const template = () => `
-  <h2>Experience Page</h2>
+  <h2 class="page__title">Work Experience</h2>
+  <section class="project-grid">
+  ${Timeline()}
+</section>
 `;
 
 const Experience = () => {

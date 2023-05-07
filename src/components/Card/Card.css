@@ -35,11 +35,10 @@
 }
 
 .card__tag {
-  background-color: rgb(226, 232, 240);
-  color: black;
+  border: 0.0625rem solid var(--da-color-primary);
   border-radius: 0.4rem;
   font-size: 1rem;
-  padding: 0.3rem 0.3rem;
+  padding: 0.4rem;
 }
 
 .card__links {

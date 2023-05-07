@@ -1,0 +1,40 @@
+.timeline {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1.5rem;
+  gap: 1rem;
+}
+
+.timeline__circle {
+  background-color: var(--da-color-highlight);
+  border-radius: 1000px;
+  width: 1.25rem;
+  height: 1.25rem;
+  top: 0;
+  left: -24px;
+  position: relative;
+}
+
+.timeline__logo {
+  background-color: white;
+  text-align: center;
+  padding: 0.5rem;
+  object-fit: contain;
+  border-radius: 1.5rem;
+}
+
+.timeline__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline__company-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.timeline__company-role {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
