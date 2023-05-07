@@ -19,12 +19,19 @@
   position: relative;
 }
 
-.timeline__logo {
+.timeline__logo-wrapper {
   background-color: white;
+  display: flex;
+  justify-content: center;
   text-align: center;
   padding: 0.5rem;
-  object-fit: contain;
   border-radius: 1.5rem;
+  width: 9.5rem;
+  height: 9.5rem;
+}
+.timeline__logo-img {
+  width: 100%;
+  object-fit: contain;
 }
 
 .timeline__info {

@@ -7,8 +7,8 @@ ${experience
     ({ role, company, logo, time, description, responsibilities }) => `
     <article class="timeline">
         <span class="timeline__circle"></span>
-        <div class="timeline__logo">
-            <img src=${logo}>
+        <div class="timeline__logo-wrapper">
+            <img class="timeline__logo-img" src=${logo}>
         </div>
         <div class="timeline__info">
             <div class="timeline__company-info">
