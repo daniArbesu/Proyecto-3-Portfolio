@@ -58,6 +58,15 @@ export const navbarMenu = [
 
 export const experience = [
   {
+    role: 'Web Development',
+    company: 'Freelance',
+    logo: '',
+    time: 'Dec. 2020 - Today',
+    description: 'Design and development of Web Concepts for different companies',
+    responsibilities: ['Web Design', 'Web Development', 'SEO Optimization', 'Marketing strategies'],
+    website: '#'
+  },
+  {
     role: 'Mechanical Engineer',
     company: 'Schwihag AG (Switzerland)',
     logo: 'https://res.cloudinary.com/dm1ciqr4c/image/upload/v1683473975/logo-schwihag-fahrbahntechnik-track-switch-technology-eisenbahn-railway-blau_yhfxy3.png',
@@ -72,7 +81,7 @@ export const experience = [
     logo: 'https://res.cloudinary.com/dm1ciqr4c/image/upload/v1683479863/nussbaum_h1vdti.png',
     time: 'Jan. 2014 - Sep. 2015',
     description:
-      'Improve top seller designs and manufacturing processes to reduce production costs',
+      'Improve top selling designs and manufacturing processes to reduce production costs',
     responsibilities: [
       'Product design improvement (FEM analysis)',
       'Optimization ofproduction processes'
@@ -81,7 +90,7 @@ export const experience = [
   },
   {
     role: 'Software Engineer',
-    company: 'Veronica Durán architecture studio',
+    company: 'Veronica Durán architecture studio (Spain)',
     logo: 'https://res.cloudinary.com/dm1ciqr4c/image/upload/v1683480361/Veronica-Duran-Logo-240x34-V2_lm0gc0.png',
     time: 'Dec. 2011 - Feb. 2012',
     description:
