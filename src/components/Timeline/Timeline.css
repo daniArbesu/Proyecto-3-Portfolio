@@ -1,0 +1,52 @@
+.timeline {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1.5rem;
+  gap: 1rem;
+  border-left: 1px dashed var(--da-color-primary);
+}
+
+.timeline__circle {
+  --circle-radius: 0.625rem;
+  --circle-size: calc(var(--circle-radius) * 2);
+
+  background-color: var(--da-color-highlight);
+  border-radius: 1000px;
+  width: var(--circle-size);
+  height: var(--circle-size);
+  top: 0;
+  left: calc(-1.5rem - var(--circle-radius));
+  position: relative;
+}
+
+.timeline__logo-wrapper {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 1.5rem;
+  width: 9.5rem;
+  height: 9.5rem;
+}
+.timeline__logo-img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.timeline__info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.timeline__company-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.timeline__company-role {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}

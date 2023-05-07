@@ -4,7 +4,7 @@ import './Timeline.css';
 const Timeline = () => `
 ${experience
   .map(
-    ({ role, company, logo, time, description, responsibilities }) => `
+    ({ role, company, logo, time, description, responsibilities, website }) => `
     <article class="timeline">
         <span class="timeline__circle"></span>
         <div class="timeline__logo-wrapper">
@@ -20,9 +20,10 @@ ${experience
             <div>
                 <h4>Responsibilities</h4>
                 <ul>
-                ${responsibilities.map((responsibility) => `<li>${responsibility}</li>`).join('')}
+                ${responsibilities.map((responsibility) => `<li>- ${responsibility}</li>`).join('')}
                 </ul>
             </div>
+            <a href=${website} target="_blank" aria-label="Resume" rel="noopener nofollow" class="cta-button">Website</a>
         </div>
     </article>`
   )

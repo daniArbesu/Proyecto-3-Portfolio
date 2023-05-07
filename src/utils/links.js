@@ -65,5 +65,18 @@ export const experience = [
     description: 'Design and development of railway rail fastening systems, analysis with FEM.',
     responsibilities: ['Design of new products', 'FEM analysis'],
     website: 'https://schwihag.com/en/'
+  },
+  {
+    role: 'R&D engineer for material savings and process optimization',
+    company: 'Nussbaum Rielasingen GmbH (Germany)',
+    logo: 'https://res.cloudinary.com/dm1ciqr4c/image/upload/v1683479863/nussbaum_h1vdti.png',
+    time: 'Jan. 2014 - Sep. 2015',
+    description:
+      'Improve top seller designs and manufacturing processes to reduce production costs',
+    responsibilities: [
+      'Product design improvement (FEM analysis)',
+      'Optimization ofproduction processes'
+    ],
+    website: 'https://www.nucan.com/en/'
   }
 ];
