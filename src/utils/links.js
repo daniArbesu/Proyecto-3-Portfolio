@@ -17,7 +17,7 @@ export const projectLinks = [
   {
     name: 'GroveMade Shop',
     image:
-      'https://res.cloudinary.com/dm1ciqr4c/image/upload/v1683369944/Project_2_Website_Shop_peq0or.png',
+      'https://res.cloudinary.com/dm1ciqr4c/image/upload/v1683491341/grovemade-shop_izxrm1.jpg',
     description: 'E-Commerce platform using semantic html and Clean code',
     technologies: ['Javascript', 'CSS'],
     github: 'https://github.com/daniArbesu/Proyecto-2-GroveMadeStore',
