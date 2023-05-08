@@ -15,6 +15,15 @@ export const ctaButtons = [
 
 export const projectLinks = [
   {
+    name: 'GroveMade Website',
+    image:
+      'https://res.cloudinary.com/dm1ciqr4c/image/upload/v1683556637/Grovemade-Website_ungwxf.jpg',
+    description: 'Responsive website with some cool animations',
+    technologies: ['HTML', 'CSS'],
+    github: 'https://github.com/daniArbesu/Proyecto-1---GroveMade',
+    liveWeb: 'https://boisterous-naiad-c10842.netlify.app/'
+  },
+  {
     name: 'GroveMade Shop',
     image:
       'https://res.cloudinary.com/dm1ciqr4c/image/upload/v1683491341/grovemade-shop_izxrm1.jpg',
@@ -31,6 +40,22 @@ export const projectLinks = [
     technologies: ['React', 'CSS'],
     github: 'https://github.com/daniArbesu/Proyecto-4-App-NASA',
     liveWeb: 'https://dani-arbesu-nasa.netlify.app/'
+  },
+  {
+    name: 'Weather App',
+    image: 'https://res.cloudinary.com/dm1ciqr4c/image/upload/v1683556089/Weather_App_gveft0.jpg',
+    description: 'Minimalistic weather app fetching data from openweather API',
+    technologies: ['React', 'CSS'],
+    github: 'https://github.com/daniArbesu/Proyecto-5-App-Tiempo',
+    liveWeb: 'https://dani-arbesu-weather.netlify.app/'
+  },
+  {
+    name: 'Game Hub',
+    image: 'https://res.cloudinary.com/dm1ciqr4c/image/upload/v1683556348/Game-Hub_uv8vgi.jpg',
+    description: 'Webapp with 3 different games to play: Tic-Tac-Toe, Hangman and Sudoku',
+    technologies: ['React', 'CSS', 'Vitest'],
+    github: 'https://github.com/daniArbesu/Proyecto-6-Hub-Juegos',
+    liveWeb: 'https://dani-arbesu-game-hub.netlify.app/'
   }
 ];
 
