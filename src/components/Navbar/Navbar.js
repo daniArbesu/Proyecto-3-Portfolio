@@ -48,6 +48,7 @@ const addListeners = () => {
       hamburgerpath.setAttribute('d', icons.hamburgerClose);
     }
   });
+
   colorstoggle.addEventListener('click', () => {
     document.querySelector('body').classList.toggle('darkmode');
 
