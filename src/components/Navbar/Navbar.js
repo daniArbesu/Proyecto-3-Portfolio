@@ -1,15 +1,14 @@
 import './Navbar.css';
 import { navbarMenu } from '../../utils/links';
+import icons from '../../utils/icons';
 
 const template = `
 <svg xmlns="http://www.w3.org/2000/svg" class="mobile-menu__icon" id="mobile-menu__icon" stroke-linecap="round" stroke-linejoin="round">
-  <line x1="4" y1="12" x2="20" y2="12"></line>
-  <line x1="4" y1="6" x2="20" y2="6"></line>
-  <line x1="4" y1="18" x2="20" y2="18"></line>
+  <path id="mobile-menu__icon-path" d='${icons.hamburgerOpen}'></path>
 </svg>
 <button class="dark-light-button" id="dark-light-button">
-  <svg xmlns="http://www.w3.org/2000/svg" class="dark-light-button__logo" viewBox="0 0 24 24" class="transition-colors text-wGray hover:text-primaryWText" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M12 3a6.364 6.364 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+  <svg xmlns="http://www.w3.org/2000/svg" class="dark-light-button__logo" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+    <path id="dark-light-button__path" d='${icons.darkTheme}'></path>
   </svg>
 </button>
 <nav class="mobile-menu__nav showmobilelinks" id="mobile-menu__nav">
@@ -34,12 +33,30 @@ const template = `
 const addListeners = () => {
   const hamburger = document.querySelector('#mobile-menu__icon');
   const colorstoggle = document.querySelector('#dark-light-button');
+  const colorstogglepath = document.querySelector('#dark-light-button__path');
+  const hamburgerpath = document.querySelector('#mobile-menu__icon-path');
 
   hamburger.addEventListener('click', () => {
     document.querySelector('#mobile-menu__nav').classList.toggle('showmobile-menu__nav');
+
+    const isMenuClose =
+      document.querySelector('#mobile-menu__nav').getAttribute('class') ===
+      'mobile-menu__nav showmobilelinks';
+    if (isMenuClose) {
+      hamburgerpath.setAttribute('d', icons.hamburgerOpen);
+    } else {
+      hamburgerpath.setAttribute('d', icons.hamburgerClose);
+    }
   });
   colorstoggle.addEventListener('click', () => {
     document.querySelector('body').classList.toggle('darkmode');
+
+    const isLightTheme = colorstogglepath.getAttribute('d') === icons.lightTheme;
+    if (isLightTheme) {
+      colorstogglepath.setAttribute('d', icons.darkTheme);
+    } else {
+      colorstogglepath.setAttribute('d', icons.lightTheme);
+    }
   });
 };
 
