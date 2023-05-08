@@ -32,7 +32,7 @@ const template = `
             </div>
         </div>
     </div>
-    <img src="/images/hero-photo.jpg" alt="Image from Daniel Arbesú" class="hero__photo">
+    <img src="https://res.cloudinary.com/dm1ciqr4c/image/upload/v1683572388/profile-pic_xitqka.jpg" alt="Image from Daniel Arbesú" class="hero__photo">
 </section>
     `;
 
