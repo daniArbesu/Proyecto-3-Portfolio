@@ -14,22 +14,15 @@
   --da-typography-typeface: Poppins, sans-serif;
 
   /* LEADING */
-  --da-typography-h1-leading: 2rem;
+  --da-typography-h1-leading: 2;
   --da-typography-h2-leading: 1.26;
   --da-typography-p-leading: 1.5;
-
-  /* MARGIN */
-  --da-typography-margin-heading: 2rem;
 
   /* GAP */
   --da-gap-header: 1rem;
 
   /* SIZE */
   --da-navbar-height: 1rem;
-
-  /* BORDER RADIUS */
-  --da-radius-button: 0.5rem;
-  --da-radius-card: 0.5rem;
 
   /* BREAKPOINTS */
   --da-breakpoint-sm: 47rem;
@@ -64,7 +57,6 @@ a {
 }
 
 body {
-  margin: 0;
   display: flex;
   flex-direction: column;
   place-items: center;
@@ -103,17 +95,15 @@ h2 {
 }
 
 @media screen and (min-width: 47rem) {
+  :root {
+    --da-typography-h1: 2.5rem;
+    --da-typography-h1-leading: 1;
+    --da-typography-h2: 1.8rem;
+    --da-typography-h2-leading: 1.2;
+  }
+
   body {
     padding-left: 15%;
     padding-right: 15%;
-  }
-
-  h1 {
-    font-size: 3rem;
-    line-height: 1;
-  }
-  h2 {
-    font-size: 1.875rem;
-    line-height: 1.2;
   }
 }
