@@ -3,7 +3,7 @@ import './Experience.css';
 
 const template = () => `
   <h2 class="page__title">Work Experience</h2>
-  <section class="project-grid">
+  <section class="experience-grid">
   ${Timeline()}
 </section>
 `;

@@ -1,0 +1,8 @@
+.experience-grid {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 0;
+  gap: 3rem;
+  width: 100%;
+  border-left: 1px dashed var(--da-color-primary);
+}
