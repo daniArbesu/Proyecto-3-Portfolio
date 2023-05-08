@@ -46,3 +46,13 @@
   gap: 1rem;
   padding: 1rem 0;
 }
+
+@media screen and (min-width: 47rem) {
+  .card {
+    flex-direction: row;
+  }
+
+  .card__cover {
+    width: 50%;
+  }
+}

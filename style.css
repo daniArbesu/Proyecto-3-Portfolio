@@ -91,7 +91,7 @@ h2 {
 
 .page__title {
   font-size: 2.25rem;
-  padding: 2rem 0;
+  padding-top: 2rem;
 }
 
 @media screen and (min-width: 47rem) {
@@ -103,7 +103,8 @@ h2 {
   }
 
   body {
-    padding-left: 15%;
-    padding-right: 15%;
+    max-width: 1024px;
+    padding: 0 2rem;
+    margin: 0 auto;
   }
 }
