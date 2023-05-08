@@ -1,5 +1,10 @@
 :root {
   --da-hero-photo-size: 240px;
+  /* BUTTONS */
+  --da-button-padding-top: 0.7rem;
+  --da-button-padding-left: 1rem;
+  --da-button-fontsize: 0.875rem;
+  --da-button-border-radius: 1rem;
 }
 
 .hero {
@@ -93,9 +98,9 @@
   display: inline-block;
   padding: var(--da-button-padding-top) var(--da-button-padding-left);
   cursor: pointer;
-  border-radius: 1rem;
-  font-size: 0.875rem;
-  font-weight: 700;
+  border-radius: var(--da-button-border-radius);
+  font-size: var(--da-button-fontsize);
+  font-weight: 600;
   gap: 10px;
   letter-spacing: 0.1rem;
   text-align: center;
@@ -109,7 +114,7 @@
   background-color: var(--da-color-primary);
   color: var(--da-color-background);
   padding: var(--da-button-padding-top) var(--da-button-padding-left);
-  border-radius: 1rem;
+  border-radius: var(--da-button-border-radius);
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -126,4 +131,27 @@
   stroke: none;
   fill: var(--da-color-background);
   stroke-width: 1px;
+}
+
+@media screen and (min-width: 47rem) {
+  :root {
+    /* CTA BUTTON */
+    --da-button-padding-top: 1rem;
+    --da-button-padding-left: 1.75rem;
+    --da-button-fontsize: 1.1rem;
+  }
+
+  .hero {
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .hero__info {
+    gap: 1.5rem;
+  }
+
+  .location-wrapper {
+    font-size: 1.3rem;
+  }
 }
