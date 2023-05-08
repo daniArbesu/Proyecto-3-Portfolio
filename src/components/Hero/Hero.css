@@ -136,9 +136,9 @@
 @media screen and (min-width: 47rem) {
   :root {
     /* CTA BUTTON */
-    --da-button-padding-top: 1rem;
+    --da-button-padding-top: 0.8rem;
     --da-button-padding-left: 1.75rem;
-    --da-button-fontsize: 1.1rem;
+    --da-button-fontsize: 1rem;
   }
 
   .hero {
@@ -153,5 +153,9 @@
 
   .location-wrapper {
     font-size: 1.3rem;
+  }
+
+  .cta-button {
+    width: fit-content;
   }
 }

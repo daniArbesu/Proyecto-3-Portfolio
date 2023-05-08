@@ -50,3 +50,12 @@
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
+
+@media screen and (min-width: 47rem) {
+  .timeline {
+    flex-direction: row;
+  }
+  .timeline__info {
+    width: 70%;
+  }
+}
