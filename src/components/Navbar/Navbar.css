@@ -26,6 +26,10 @@
   display: block;
 }
 
+.desktop-menu__nav {
+  display: none;
+}
+
 .mobile-menu__nav {
   display: none;
 }
@@ -84,4 +88,19 @@
   fill: none;
   stroke: var(--da-color-primary);
   stroke-width: 2px;
+}
+
+@media screen and (min-width: 47rem) {
+  .mobile-menu__icon {
+    display: none;
+  }
+
+  .desktop-menu__nav {
+    display: block;
+  }
+
+  .desktop-menu__links {
+    display: flex;
+    gap: 1.5rem;
+  }
 }

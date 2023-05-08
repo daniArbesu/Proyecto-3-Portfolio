@@ -3,6 +3,20 @@ import { navbarMenu } from '../../utils/links';
 import icons from '../../utils/icons';
 
 const template = `
+<nav class="desktop-menu__nav" id="desktop-menu__nav">
+  <ul class="desktop-menu__links">
+    ${navbarMenu
+      .map(
+        ({ name, id }) => `
+        <li>
+          <a href="#" class="mobile-menu__item" id=${id} aria-label=${name} rel="noopener nofollow">
+            ${name}
+          </a>
+        </li>`
+      )
+      .join('')}
+  </ul>
+</nav>
 <svg xmlns="http://www.w3.org/2000/svg" class="mobile-menu__icon" id="mobile-menu__icon" stroke-linecap="round" stroke-linejoin="round">
   <path id="mobile-menu__icon-path" d='${icons.hamburgerOpen}'></path>
 </svg>
