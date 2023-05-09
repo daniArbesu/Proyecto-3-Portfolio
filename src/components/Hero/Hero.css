@@ -1,5 +1,5 @@
 :root {
-  --da-hero-photo-size: 240px;
+  --da-hero-photo-size: 200px;
   /* BUTTONS */
   --da-button-padding-top: 0.7rem;
   --da-button-padding-left: 1rem;
@@ -26,7 +26,7 @@
 .hero__photo {
   width: var(--da-hero-photo-size);
   height: var(--da-hero-photo-size);
-  border-radius: var(--da-hero-photo-size);
+  border-radius: 50%;
   object-fit: cover;
   order: 1;
 }
