@@ -18,12 +18,17 @@ ${projectLinks
             </ul>
             <div class="card__links">
                 <a href=${liveWeb} target="_blank" aria-label="Website Link" rel="noopener nofollow" class="cta-button">Website</a>
-                <a href=${github} target="_blank" aria-label="Github Link" rel="noopener nofollow" class="button-social">
-                    <svg class="social-links__logo" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d='${icons.github}'/> 
-                    </svg>
-                    Source
-                </a>
+                ${
+                  github
+                    ? `<a href=${github} target="_blank" aria-label="Github Link" rel="noopener nofollow" class="button-social">
+                <svg class="social-links__logo" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d='${icons.github}'/> 
+                </svg>
+                Source
+            </a>`
+                    : ''
+                }
+                
             </div>
         </section>
     </article>`

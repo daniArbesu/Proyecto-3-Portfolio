@@ -15,6 +15,14 @@ export const ctaButtons = [
 
 export const projectLinks = [
   {
+    name: 'Serpistar Website',
+    image:
+      'https://res.cloudinary.com/dm1ciqr4c/image/upload/v1683628663/Serpistar_Website_k1klzu.jpg',
+    description: 'Responsive website for a car electronics client with E-commerce platform',
+    technologies: ['HTML', 'CSS', 'Wordpress'],
+    liveWeb: 'https://www.serpistar.com/ssisles/'
+  },
+  {
     name: 'GroveMade Website',
     image:
       'https://res.cloudinary.com/dm1ciqr4c/image/upload/v1683556637/Grovemade-Website_ungwxf.jpg',
