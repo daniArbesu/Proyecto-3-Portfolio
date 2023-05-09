@@ -7,7 +7,12 @@ const linkPage = (id, page) => {
   links.forEach((link) =>
     link.addEventListener('click', () => {
       page();
-      document.querySelector('#mobile-menu__nav').classList.toggle('showmobile-menu__nav');
+      const isDesktop =
+        document.querySelector('#mobile-menu__nav').getAttribute('class') ===
+        'mobile-menu__nav showmobilelinks';
+      if (!isDesktop) {
+        document.querySelector('#mobile-menu__nav').classList.toggle('showmobile-menu__nav');
+      }
 
       const isMenuClose =
         document.querySelector('#mobile-menu__nav').getAttribute('class') ===
