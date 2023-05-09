@@ -1,0 +1,7 @@
+footer {
+  padding: 1rem 0;
+}
+
+.source-link {
+  color: var(--da-color-highlight);
+}

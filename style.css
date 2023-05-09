@@ -10,6 +10,7 @@
   --da-typography-h1: 2.1rem;
   --da-typography-h2: 1.5rem;
   --da-typography-h3: 1.625rem;
+  --da-typography-page-title: 2.25rem;
   --da-typography-p: 0.8125rem;
   --da-typography-typeface: Poppins, sans-serif;
 
@@ -90,7 +91,7 @@ h2 {
 }
 
 .page__title {
-  font-size: 2.25rem;
+  font-size: var(--da-typography-page-title);
   padding-top: 2rem;
 }
 
