@@ -15,6 +15,25 @@ export const ctaButtons = [
 
 export const projectLinks = [
   {
+    name: 'Olympic Games App',
+    image:
+      'https://res.cloudinary.com/dm1ciqr4c/image/upload/v1684759070/portfolio-project-3/Olympic-Games-app_cpxa1k.jpg',
+    description:
+      'Olympic Games App to manage the different Athletes and the games where they won a medal',
+    technologies: ['Next.js', 'TypeScript', 'Express.JS', 'Styled-Components'],
+    github: 'https://github.com/daniArbesu/Proyecto-10-Olympic-Games-App',
+    liveWeb: 'https://proyecto-10-olympic-games-app.vercel.app/'
+  },
+  {
+    name: 'Tesla Website',
+    image:
+      'https://res.cloudinary.com/dm1ciqr4c/image/upload/v1684758722/portfolio-project-3/tesla-website.jpg',
+    description: 'Copy of the Tesla website, to try the new Astro framework',
+    technologies: ['HTML', 'CSS', 'Astro'],
+    github: 'https://github.com/daniArbesu/tesla-landing',
+    liveWeb: 'https://tesla-landing-dani-arbesu.netlify.app/'
+  },
+  {
     name: 'Serpistar Website',
     image:
       'https://res.cloudinary.com/dm1ciqr4c/image/upload/v1683628663/Serpistar_Website_k1klzu.jpg',
